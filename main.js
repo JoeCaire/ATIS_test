@@ -16,5 +16,5 @@ atis.on('message', message => {
   if (message.content.startsWith(`${PREFIX}ping`)) message.channel.send("pong !")
 });
 
-//Connecte le client, établissant une connexion Websocket à Discord
-atis.login(process.env.TOKEN);
+//Connecte le client, établissant une connexion Websocket à Discord- "code" etant la variable à définir dans Héroku
+atis.login(process.env.code);
