@@ -11,5 +11,8 @@
   "dependencies": {
     "discord.js": "^12.5.1",
     "node-fetch": "^2.6.1"
+  },
+  "script": {
+    "start": "node main.js"
   }
 }
